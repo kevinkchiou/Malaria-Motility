@@ -1,6 +1,6 @@
 function [datastruct_new] = compute_domega_dt(datastruct,runtracks)
 %COMPUTE_DOMEGA_DT calculates angular velocity of tracks from a track data
-%structure over a small time-averaged window.
+%structure over a small time-averaged window. This also requires the CIRCLE_FIT subroutine to run properly.
 %   Detailed explanation: take in a track structure output from the import
 %   function import_csv_tracks, while runtracks is the output from
 %   contiguous_track_stats that locates contiguous data to average over
